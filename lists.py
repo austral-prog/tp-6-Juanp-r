@@ -11,11 +11,8 @@ def add_elements(lista):
 
 
 def is_empty(lista):
-    if len(lista) == 0:
-        print ("It is empty")
-    else:
-        print ("It is not empty")
-
+    return len(lista) == 0
+       
 
 def check_lists(list_to_compare1, list_to_compare2):
     if len(list_to_compare1)>3 and len(list_to_compare2)>3:
