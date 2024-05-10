@@ -1,14 +1,7 @@
 # Replace the "ANSWER HERE" with your answer
 def remove_element(list_to_remove_element):
-    length=len(list_to_remove_element)
-    print=length
-    if length>0:
-        del list_to_remove_element[0]
-    if length>4:
-        del list_to_remove_element[4]
-    if length>6:
-        del list_to_remove_element[5]
-    return (list_to_remove_element)
+        txt=list_to_remove_element[1:4] + [6:]
+    return (txt)
 
 
 def add_elements(lista):
@@ -32,7 +25,7 @@ def check_lists(list_to_compare1, list_to_compare2):
 
 
 def list_of_lists(list_of_lists_to_modify):
-    return (list_of_lists_to_modify[0][0:2],list_of_lists_to_modify[1][1:4],list_of_lists_to_modify[2][-2:])
+    return [list_of_lists_to_modify[0][0:2],list_of_lists_to_modify[1][1:4],list_of_lists_to_modify[2][-2:]]
 
 
   
