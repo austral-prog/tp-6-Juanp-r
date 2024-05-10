@@ -6,7 +6,7 @@ def remove_elements(list_to_remove_element):
 
 def add_elements(lista):
     lista.append('Yellow')
-    lista.insert(0,'pink')
+    lista.insert(0,'Pink')
     return lista
 
 
