@@ -1,7 +1,7 @@
 # Replace the "ANSWER HERE" with your answer
 def remove_element(list_to_remove_element):
         txt=list_to_remove_element[1:4] + list_to_remove_element[6:]
-    return (txt)
+        return (txt)
 
 
 def add_elements(lista):
